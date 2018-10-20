@@ -13,6 +13,7 @@
 		29688346217A4DB200CB28B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29688344217A4DB200CB28B4 /* Main.storyboard */; };
 		29688352217A4DB200CB28B4 /* StudyToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29688351217A4DB200CB28B4 /* StudyToolTests.swift */; };
 		2968835D217A4DB200CB28B4 /* StudyToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2968835C217A4DB200CB28B4 /* StudyToolUITests.swift */; };
+		2968836B217BE0D000CB28B4 /* PrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2968836A217BE0D000CB28B4 /* PrefsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		29688358217A4DB200CB28B4 /* StudyToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2968835C217A4DB200CB28B4 /* StudyToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyToolUITests.swift; sourceTree = "<group>"; };
 		2968835E217A4DB200CB28B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2968836A217BE0D000CB28B4 /* PrefsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				2968833E217A4DB000CB28B4 /* AppDelegate.swift */,
 				29688340217A4DB000CB28B4 /* ViewController.swift */,
+				2968836A217BE0D000CB28B4 /* PrefsViewController.swift */,
 				29688342217A4DB200CB28B4 /* Assets.xcassets */,
 				29688344217A4DB200CB28B4 /* Main.storyboard */,
 				29688347217A4DB200CB28B4 /* Info.plist */,
@@ -255,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29688341217A4DB000CB28B4 /* ViewController.swift in Sources */,
+				2968836B217BE0D000CB28B4 /* PrefsViewController.swift in Sources */,
 				2968833F217A4DB000CB28B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
