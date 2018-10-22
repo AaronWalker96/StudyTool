@@ -14,6 +14,9 @@
 		29688352217A4DB200CB28B4 /* StudyToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29688351217A4DB200CB28B4 /* StudyToolTests.swift */; };
 		2968835D217A4DB200CB28B4 /* StudyToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2968835C217A4DB200CB28B4 /* StudyToolUITests.swift */; };
 		2968836B217BE0D000CB28B4 /* PrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2968836A217BE0D000CB28B4 /* PrefsViewController.swift */; };
+		29688370217BEC3200CB28B4 /* StudyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2968836F217BEC3200CB28B4 /* StudyTimer.swift */; };
+		29688372217E26CB00CB28B4 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29688371217E26CB00CB28B4 /* Preferences.swift */; };
+		29688374217E2E6C00CB28B4 /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29688373217E2E6B00CB28B4 /* ding.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		2968835C217A4DB200CB28B4 /* StudyToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyToolUITests.swift; sourceTree = "<group>"; };
 		2968835E217A4DB200CB28B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2968836A217BE0D000CB28B4 /* PrefsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefsViewController.swift; sourceTree = "<group>"; };
+		2968836F217BEC3200CB28B4 /* StudyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTimer.swift; sourceTree = "<group>"; };
+		29688371217E26CB00CB28B4 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		29688373217E2E6B00CB28B4 /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +105,13 @@
 			isa = PBXGroup;
 			children = (
 				2968833E217A4DB000CB28B4 /* AppDelegate.swift */,
-				29688340217A4DB000CB28B4 /* ViewController.swift */,
-				2968836A217BE0D000CB28B4 /* PrefsViewController.swift */,
+				2968836C217BEAD300CB28B4 /* View Controllers  */,
+				2968836D217BEB1900CB28B4 /* Model */,
 				29688342217A4DB200CB28B4 /* Assets.xcassets */,
 				29688344217A4DB200CB28B4 /* Main.storyboard */,
+				29688373217E2E6B00CB28B4 /* ding.mp3 */,
 				29688347217A4DB200CB28B4 /* Info.plist */,
-				29688348217A4DB200CB28B4 /* StudyTool.entitlements */,
+				2968836E217BEB3E00CB28B4 /* Supporting Files */,
 			);
 			path = StudyTool;
 			sourceTree = "<group>";
@@ -125,6 +132,32 @@
 				2968835E217A4DB200CB28B4 /* Info.plist */,
 			);
 			path = StudyToolUITests;
+			sourceTree = "<group>";
+		};
+		2968836C217BEAD300CB28B4 /* View Controllers  */ = {
+			isa = PBXGroup;
+			children = (
+				29688340217A4DB000CB28B4 /* ViewController.swift */,
+				2968836A217BE0D000CB28B4 /* PrefsViewController.swift */,
+			);
+			path = "View Controllers ";
+			sourceTree = "<group>";
+		};
+		2968836D217BEB1900CB28B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2968836F217BEC3200CB28B4 /* StudyTimer.swift */,
+				29688371217E26CB00CB28B4 /* Preferences.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2968836E217BEB3E00CB28B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29688348217A4DB200CB28B4 /* StudyTool.entitlements */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +266,7 @@
 			files = (
 				29688343217A4DB200CB28B4 /* Assets.xcassets in Resources */,
 				29688346217A4DB200CB28B4 /* Main.storyboard in Resources */,
+				29688374217E2E6C00CB28B4 /* ding.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +292,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				29688341217A4DB000CB28B4 /* ViewController.swift in Sources */,
+				29688370217BEC3200CB28B4 /* StudyTimer.swift in Sources */,
+				29688372217E26CB00CB28B4 /* Preferences.swift in Sources */,
 				2968836B217BE0D000CB28B4 /* PrefsViewController.swift in Sources */,
 				2968833F217A4DB000CB28B4 /* AppDelegate.swift in Sources */,
 			);
